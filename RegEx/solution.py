@@ -13,17 +13,17 @@ def check(panNo):
 
 if __name__ == '__main__':
 
-    panNo = "123"
+    panNo = "BNZAA23184"
     check(panNo)
 
-    panNo = "10"
+    panNo = "BNZAA2318"
     check(panNo)
 
     panNo = "Iy6"
     check(panNo)
 
-    panNo = "123458"
+    panNo = "BN7AA23184"
     check(panNo)
 
-    panNo = "1"
+    panNo = "BNZAA2318A"
     check(panNo)
