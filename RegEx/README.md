@@ -15,8 +15,8 @@ $ : end   <br>
 (?) : matches zero or one occurrence of the pattern left to it  <br>
 {n,m} : This means at least n, and at most m repetitions of the pattern left to it.  <br>
 
-
-Reference link [click here :](https://www.programiz.com/python-programming/regex)
+ <br> <br>
+**Reference link** [click here :](https://www.programiz.com/python-programming/regex)
 
 
 ### Email validation 
