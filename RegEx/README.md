@@ -1,19 +1,19 @@
 ## Notes  on regex
 
-MetaCharacters:
-[] . ^ $ * + ? {} () \ |
+MetaCharacters: <br>
+[] . ^ $ * + ? {} () \ |  <br>
 _________________________________________________
-
-^ : start 
-$ : end 
-[] : character set 
-[^] : negation
-(|) : or operator
-(\) : CHARACTER IS not threaten in any way 
-(*) : matches zero or more occurrences of the pattern left to it
-(+) : matches one or more occurrences of the pattern left to it
-(?) : matches zero or one occurrence of the pattern left to it
-{n,m} : This means at least n, and at most m repetitions of the pattern left to it.
+ <br>
+^ : start   <br>
+$ : end   <br>
+[] : character set   <br>
+[^] : negation  <br>
+(|) : or operator  <br>
+(\) : CHARACTER IS not threaten in any way   <br>
+(*) : matches zero or more occurrences of the pattern left to it  <br>
+(+) : matches one or more occurrences of the pattern left to it  <br>
+(?) : matches zero or one occurrence of the pattern left to it  <br>
+{n,m} : This means at least n, and at most m repetitions of the pattern left to it.  <br>
 
 
 Reference link [click here :](https://www.programiz.com/python-programming/regex)
