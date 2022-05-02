@@ -1,5 +1,6 @@
 ## Notes  on regex
 
+#### python 
 MetaCharacters: <br>
 [] . ^ $ * + ? {} () \ |  <br>
 _________________________________________________
@@ -33,7 +34,7 @@ $ : end   <br>
 ### STD number validation
 
 ```
-'^[0-9]{2,3}$'
+'^(0)?[1-9](0|[1-9]){1,3}$'
 ```
 
 ### pin code validation
@@ -49,3 +50,11 @@ $ : end   <br>
 ```
 
 
+
+##javascript 
+
+```
+/d = [0-9]
+/w = (a-z A-z 0-9...)
+/s = space 
+/t = tab
