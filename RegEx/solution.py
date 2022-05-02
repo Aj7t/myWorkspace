@@ -1,8 +1,7 @@
-
-
 import re
 
 panNoValidation = r'[A-Z]{5}[0-9]{4}[A-Z]{1}'
+
 
 def check(panNo):
     if re.fullmatch(panNoValidation, panNo):

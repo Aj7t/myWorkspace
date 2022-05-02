@@ -1,6 +1,8 @@
 import re
 
-stdValidation = r'^[0-9]{2,3}$'
+
+# STD number should have 3 to 5 digit starting with either 0 or 4
+stdValidation = r'^0?[1-9][0-9]{1,3}$'
 
 def check (stdNo):
     if re.fullmatch(stdValidation,stdNo):
@@ -12,17 +14,31 @@ def check (stdNo):
         
 if __name__ == '__main__':
     
-    stdNo = "123"
+    stdNo = "7141"
     check(stdNo)
     
-    stdNo = "10"
+    stdNo = "06111"
     check(stdNo)
     
     stdNo = "Iy6"
     check(stdNo)
 
-    stdNo = "123458"
+    stdNo = "04"
     check(stdNo)
 
     stdNo = "1"
     check(stdNo)
+    
+    stdNo = "1125"
+    check(stdNo)
+    
+    stdNo = "000"
+    check(stdNo)
+
+
+
+
+
+
+
+
