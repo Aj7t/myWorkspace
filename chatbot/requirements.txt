@@ -1,0 +1,14 @@
+#installation 
+pip install --upgrade pip
+pip install --upgrade tensorflow
+pip install --upgrade numpy
+pip install --upgrade nltk
+
+
+# train the model using the command in the terminal:
+python train_chatbot.py
+
+
+#chatGui
+
+python chatgui.py
