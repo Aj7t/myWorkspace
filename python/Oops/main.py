@@ -1,10 +1,11 @@
 
 class animals:
     # Instance attribute
-    def __init__(myObj,name,age):
+    def __init__(myObj,name,age,color):
         myObj.name=name
         myObj.age=age
-    
+        myObj.color=color
+
     #methods
     def eat(myObj):
         print(myObj.name + " is eating")
@@ -24,7 +25,7 @@ class animals:
 #main function
     
 # baseClass object creation
-myobj1 = animals("Rocky", 2)
+myobj1 = animals("Rocky", 2, "brown")
 myobj1.eat()
 myobj1.age = 10
 # del myobj1
