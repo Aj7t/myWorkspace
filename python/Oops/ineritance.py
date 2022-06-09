@@ -1,4 +1,4 @@
-from main import animals
+from main import*
 
 class rocky(animals):
     def __init__(self, name, age):
