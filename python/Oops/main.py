@@ -1,4 +1,3 @@
-
 class animals:
     # Instance attribute
     def __init__(myObj,name,age,color):
@@ -31,3 +30,6 @@ myobj1.age = 10
 # del myobj1
 print(myobj1.about())
 
+
+myobj = animals("duke",13, "brown")
+print(myobj.about())

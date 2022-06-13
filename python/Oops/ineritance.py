@@ -13,7 +13,7 @@ class leo(rocky):
 
 class teddy(rocky):
     def __init__(self, name, age,color):
-        super().__init__(name, age,color)
+        rocky.__init__(name, age,color)
         print("this is multilevel inheritance")
 
 class bats(teddy,leo):
@@ -35,3 +35,5 @@ print(myobj3.about())
 myobj4 = bats("bats",12,"brown")
 print(myobj4.about())
 print(animals.mro())
+
+
