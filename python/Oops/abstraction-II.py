@@ -14,19 +14,19 @@ class Animal(ABC):
  
 class Snake(Animal):
     def sound(self):
-        print("I can hiss")
+        print("snake can hiss")
  
 class Dog(Animal):
     def sound(self):
-        print("I can bark")
+        print("Dog can bark")
  
 class Lion(Animal):
     def sound(self):
-        print("I can roar")
+        print("Lion can roar")
        
 class Cat(Animal):
     def sound(self):
-        print("I can meow")
+        print("cat can meow")
         
         
 c = Cat()
