@@ -32,8 +32,8 @@ class Cat(Animal):
 c = Cat()
 c.sound()
 
-c = Snake()
-c.sound()
+S = Snake()
+S.Sound()
 
 
 class Rabbit(Animal):
@@ -42,5 +42,5 @@ class Rabbit(Animal):
         print("I can squeak")
 
 
-c = Rabbit()
-c.sound()
+R = Rabbit()
+R.sound()
