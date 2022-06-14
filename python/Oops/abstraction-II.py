@@ -1,11 +1,11 @@
 from abc import ABC, abstractmethod
 
-
+# Important thing is– you cannot create an object for the abstract class with the abstract method.
 class Animal(ABC):
 
     #concrete method
-    def sleep(self):
-        print("I am going to sleep in a while")
+    def family(self):
+        print("hey we belong to animal family")
 
     @abstractmethod
     def sound(self):
@@ -14,27 +14,26 @@ class Animal(ABC):
  
 class Snake(Animal):
     def sound(self):
-        print("I can hiss")
+        print("snake can hiss")
  
 class Dog(Animal):
     def sound(self):
-        print("I can bark")
+        print("Dog can bark")
  
 class Lion(Animal):
     def sound(self):
-        print("I can roar")
+        print("Lion can roar")
        
 class Cat(Animal):
     def sound(self):
-        print("I can meow")
+        print("cat can meow")
         
         
 c = Cat()
-c.sleep()
 c.sound()
 
-c = Snake()
-c.sound()
+S = Snake()
+S.Sound()
 
 
 class Rabbit(Animal):
@@ -43,5 +42,5 @@ class Rabbit(Animal):
         print("I can squeak")
 
 
-c = Rabbit()
-c.sound()
+R = Rabbit()
+R.sound()

@@ -8,8 +8,7 @@ class animals(ABC):
     @abstractmethod
     def colour(myObj):
         pass
-    def sound(myObj):
-        pass
+    
 
 class Dog(animals):
     def colour(myObj):
