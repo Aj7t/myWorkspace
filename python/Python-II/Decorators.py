@@ -1,3 +1,7 @@
+'''
+ to modify the behaviour of a function or class
+'''
+
 
 def outer_fun(func):
     def inner_fun():
@@ -7,13 +11,15 @@ def outer_fun(func):
     return inner_fun
 
 
-
-def func():
+@outer_fun
+def ajit():
     print("This is a function")
     
     
-myfun= outer_fun(func)
-myfun()
+# myfun= outer_fun(func)
+# outer_fun(func) is equivalent to @outer_fun
+# func = outer_fun(func)
+ajit()
 
 
 #prequisite for decorators
