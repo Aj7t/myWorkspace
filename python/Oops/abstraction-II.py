@@ -23,7 +23,19 @@ class Dog(Animal):
 class Lion(Animal):
     def sound(self):
         print("Lion can roar")
+ 
+ 
+class decorator_class:
+    def __init__(self):
+        pass
+
+    def catChild(self ):
+       print("I am a cat child")
+       return c.sound()
+
        
+
+@decorator_class
 class Cat(Animal):
     def sound(self):
         print("cat can meow")
