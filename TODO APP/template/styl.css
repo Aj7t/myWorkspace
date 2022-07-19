@@ -1,0 +1,44 @@
+body {
+	font-family: calibri;
+    margin-top: 15%;
+    background-image: url("https://img.freepik.com/free-vector/blue-gradient-futuristic-technology-background_23-2149120042.jpg?w=996&t=st=1657507974~exp=1657508574~hmac=d92a7e1fbf5f0e87c86e10c41232e044a60c4d95d34a4ab71f32c39c846ff716.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tblLogin {
+	border: #95bee6 1px solid;
+	background: #e2ece8;
+	border-radius: 4px;
+}
+
+.tableheader {
+	font-size: 24px;
+}
+
+.tableheader td {
+	padding: 20px;
+}
+
+.tablerow td {
+	text-align: center;
+}
+
+.message {
+	color: #FF0000;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+}
+
+.login-input {
+	border: #CCC 1px solid;
+	padding: 10px 20px;
+}
+
+.btnSubmit {
+	padding: 10px 20px;
+	background: #086210;
+	border: #d1e8ff 1px solid;
+	color: #FFF;
+}
